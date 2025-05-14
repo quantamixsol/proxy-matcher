@@ -368,21 +368,3 @@ if proxy_u and univ_u:
                     title=f"{a}: Score Distribution"
                 )
                 st.plotly_chart(fig_b, use_container_width=True)
-
-# ─── DEPLOYMENT NOTES ───────────────────────────────────────────────
-st.markdown("""
----
-### 🚀 Deployment
-
-1. **requirements.txt**  
-   ```text
-   streamlit
-   faiss-cpu
-   pandas
-   numpy
-   transformers
-   sentence-transformers
-   rapidfuzz
-   plotly
-   scikit-learn
-   torch
